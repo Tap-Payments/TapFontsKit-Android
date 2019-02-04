@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tapfontlistpreference="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.tap.tapfontskit.FontPreferences
+        android:defaultValue="@string/font_face_default_value"
+        android:key="@string/preference_font_face"
+        android:title="@string/font_face"
+        tapfontlistpreference:tap_fontPreviewString="@string/font_preview_string"
+        tapfontlistpreference:tap_fontDirectory="@string/font_face_font_directory"
+        />
+
+</PreferenceScreen>
