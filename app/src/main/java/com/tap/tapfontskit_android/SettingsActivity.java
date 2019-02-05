@@ -30,7 +30,7 @@ public class SettingsActivity extends AppCompatActivity {
 
             this.addPreferencesFromResource(R.xml.preferences);
 
-              fontFacePref =  this.findPreference("preference_font_face");
+              fontFacePref =  this.findPreference("preference_font_face_key");
               fontFacePref.setOnPreferenceChangeListener(this);
 
             this.getPreferenceManager().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);

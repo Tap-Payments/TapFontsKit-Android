@@ -5,7 +5,7 @@
 
     <com.tap.tapfontskit.FontPreferences
         android:defaultValue="@string/font_face_default_value"
-        android:key="@string/preference_font_face"
+        android:key="@string/preference_font_face_key"
         android:title="@string/font_face"
         tapfontlistpreference:tap_fontPreviewString="@string/font_preview_string"
         tapfontlistpreference:tap_fontDirectory="@string/font_face_font_directory"

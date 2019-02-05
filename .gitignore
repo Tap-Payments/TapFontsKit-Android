@@ -1,1 +1,17 @@
 .DS_Store
+/gradlew
+/TapFontsKit-Android.iml
+/.gitignore
+/libs.iml
+/build.gradle
+/gradle.properties
+/README.md
+/gradlew.bat
+/local.properties
+/LICENSE
+/settings.gradle
+/tapfontskit
+/gradle
+/.gradle
+/app
+/.idea

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         final TextView fontTextView = this.findViewById(R.id.font);
-        final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face), this.getString(R.string.font_face_default_value));
+        final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
 
         fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         final TextView fontTextView =  this.findViewById(R.id.font);
-        final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face), this.getString(R.string.font_face_default_value));
+        final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
 
         fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
 
