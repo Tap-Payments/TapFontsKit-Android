@@ -9,6 +9,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.tap.tapfontskit.FontProvider;
+import com.tap.tapfontskit.enums.TapFont;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         final TextView fontTextView = this.findViewById(R.id.font);
         final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
-
+        FontProvider.Companion.localizedFont(TapFont.robotoRegular,  80,  "en",this);
         fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
 
 
