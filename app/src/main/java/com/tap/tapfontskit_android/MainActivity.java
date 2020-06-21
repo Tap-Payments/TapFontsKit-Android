@@ -17,20 +17,17 @@ import com.tap.tapfontskit.enums.TapFont;
 
 
 public class MainActivity extends AppCompatActivity {
-    Context mContext;
-
+    FontChanger fontChanger;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mContext=this;
 
         final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-
         final TextView fontTextView = this.findViewById(R.id.font);
        // final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
         // fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
-        FontChanger fontChanger = new FontChanger(this.getAssets(),TapFont.Companion.tapFontType(TapFont.helveticaNeueLight));
+       fontChanger = new FontChanger(this.getAssets(),TapFont.Companion.tapFontType(TapFont.helveticaNeueLight));
         fontChanger.replaceFonts((ViewGroup)this.findViewById(android.R.id.content));
 
     }
