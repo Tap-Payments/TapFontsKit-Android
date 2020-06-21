@@ -12,7 +12,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles 'tapfontskit/src/main/assets'
+        //consumerProguardFiles 'tapfontskit/src/main/assets'
     }
 
     buildTypes {
@@ -21,11 +21,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets {
-        main {
-            assets.srcDirs = ['tapfontskit/src/main/assets']
-        }
-    }
+
 }
 
 dependencies {

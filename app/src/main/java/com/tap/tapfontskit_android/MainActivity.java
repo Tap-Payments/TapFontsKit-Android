@@ -1,5 +1,6 @@
 package com.tap.tapfontskit_android;
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -7,25 +8,30 @@ import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.tap.tapfontskit.FontProvider;
+import com.tap.tapfontskit.FontChanger;
 import com.tap.tapfontskit.enums.TapFont;
 
+
 public class MainActivity extends AppCompatActivity {
+    Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mContext=this;
 
         final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         final TextView fontTextView = this.findViewById(R.id.font);
-        final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
-        FontProvider.Companion.localizedFont(TapFont.robotoRegular,  80,  "en",this);
-        fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
-
+       // final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
+        // fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
+        FontChanger fontChanger = new FontChanger(this.getAssets(),TapFont.Companion.tapFontType(TapFont.helveticaNeueLight));
+        fontChanger.replaceFonts((ViewGroup)this.findViewById(android.R.id.content));
 
     }
 
@@ -35,8 +41,9 @@ public class MainActivity extends AppCompatActivity {
         final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         final TextView fontTextView =  this.findViewById(R.id.font);
         final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
+        System.out.println("getAssets = " + getAssets().toString()+"fonts"+font);
 
-        fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
+       // fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
 
     }
 

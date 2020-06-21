@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d87b262-953d-4e3b-8c79-9c91ccc86ceb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tap/tapfontskit_android/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tap/tapfontskit_android/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tapfontskit/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tapfontskit/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tapfontskit/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tapfontskit/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tapfontskit/tapfontskit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tapfontskit/tapfontskit.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +28,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29_2" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -155,7 +164,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -165,34 +176,30 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/tapfontskit/src/main/java/com/tap/tapfontskit/FontProvider.kt</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/tapfontskit/src/main/java/com/tap/tapfontskit/enums/TapFont.kt</url>
-          <line>48</line>
+          <line>56</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/tapfontskit/src/main/java/com/tap/tapfontskit/FontProvider.kt</url>
-          <line>32</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/tapfontskit/src/main/java/com/tap/tapfontskit/FontChanger.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/tapfontskit/src/main/java/com/tap/tapfontskit/FontProvider.kt</url>
-          <line>37</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/tapfontskit/src/main/java/com/tap/tapfontskit/FontChanger.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/tapfontskit/src/main/java/com/tap/tapfontskit/FontProvider.kt</url>
-          <line>58</line>
-          <option name="timeStamp" value="12" />
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/content/res/AssetManager.java</url>
+          <line>57</line>
+          <properties field="TAG" class="android.content.res.AssetManager" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/tap/tapfontskit_android/MainActivity.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="4" />
+          <line>33</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
