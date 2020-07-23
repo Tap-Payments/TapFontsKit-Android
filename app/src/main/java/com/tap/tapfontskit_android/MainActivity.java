@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         final TextView fontTextView = this.findViewById(R.id.font);
        // final String font = sharedPreferences.getString(this.getString(R.string.preference_font_face_key), this.getString(R.string.font_face_default_value));
         // fontTextView.setTypeface(Typeface.createFromAsset(this.getAssets(), font));
-       fontChanger = new FontChanger(this.getAssets(),TapFont.Companion.tapFontType(TapFont.helveticaNeueLight));
+        fontChanger = new FontChanger(this.getAssets(),TapFont.Companion.tapFontType(TapFont.helveticaNeueLight));
         fontChanger.replaceFonts((ViewGroup)this.findViewById(android.R.id.content));
 
     }
