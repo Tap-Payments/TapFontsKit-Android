@@ -20,6 +20,13 @@ enum class TapFont {
     robotoRegular,
     robotoBold,
 
+    tajawalThin,
+    tajawalLight,
+    tajawalMedium,
+    tajawalRegular,
+    tajawalBold,
+
+
     circeExtraLight,
     circeLight,
     circeRegular,
@@ -31,6 +38,8 @@ enum class TapFont {
 
     systemDefault;
 
+
+
     companion object {
         fun tapFontType(tapFont: TapFont):String {
             return when(tapFont){
@@ -39,6 +48,13 @@ enum class TapFont {
                 robotoLight->"fonts/Roboto-Light.ttf"
                 robotoMedium->"fonts/Roboto-Medium.ttf"
                 robotoBold->"fonts/Roboto-Bold.ttf"
+
+                tajawalRegular -> "fonts/Tajawal-Bold.ttf"
+                tajawalThin ->"fonts/Tajawal-Thin.ttf"
+                tajawalLight->"fonts/Tajawal-Light.ttf"
+                tajawalMedium->"fonts/Tajawal-Medium.ttf"
+                tajawalBold->"fonts/Tajawal-Bold.ttf"
+
                 circeExtraLight->"fonts/Circe-ExtraLight.ttf"
                 circeLight->"fonts/Circe-Light.ttf"
                 circeRegular->"fonts/Circe-Regular.ttf"
