@@ -8,11 +8,11 @@ Copyright (c) 2020    Tap Payments.
 All rights reserved.
  **/
 enum class TapFont {
-    helveticaNeueThin,
-    helveticaNeueLight,
-    helveticaNeueMedium,
-    helveticaNeueRegular,
-    helveticaNeueBold,
+    latoThin,
+    latoLight,
+    latoMedium,
+    latoRegular,
+    latoBold,
 
     robotoThin,
     robotoLight,
@@ -32,9 +32,7 @@ enum class TapFont {
     circeRegular,
     circeBold,
 
-    arabicHelveticaNeueLight,
-    arabicHelveticaNeueRegular,
-    arabicHelveticaNeueBold,
+
 
     systemDefault;
 
@@ -59,9 +57,10 @@ enum class TapFont {
                 circeLight->"fonts/Circe-Light.ttf"
                 circeRegular->"fonts/Circe-Regular.ttf"
                 circeBold->"fonts/Circe-Bold.ttf"
-                helveticaNeueBold->"fonts/HelveticaNeueLTW20-Bold.ttf"
-                helveticaNeueLight->"fonts/HelveticaNeueLTW20-Light.ttf"
-                helveticaNeueRegular->"fonts/HelveticaNeueLTW20-Roman.ttf"
+
+                latoBold->"fonts/Lato-Bold.ttf"
+                latoLight->"fonts/Lato-Light.ttf"
+                latoRegular->"fonts/Lato-Regular.ttf"
                else->"fonts/Roboto-Regular.ttf"
             }
         }

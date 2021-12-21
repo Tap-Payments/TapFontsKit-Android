@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TapFontKit-Android.iml" filepath="$PROJECT_DIR$/TapFontKit-Android.iml" group="TapFontKit-Android" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TapFontKit-Android/app" />
-      <module fileurl="file://$PROJECT_DIR$/tapfontskit/tapfontskit.iml" filepath="$PROJECT_DIR$/tapfontskit/tapfontskit.iml" group="TapFontKit-Android/tapfontskit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TapFontsKit-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/TapFontsKit-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TapFontsKit-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TapFontsKit-Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tapfontskit/TapFontsKit-Android.tapfontskit.iml" filepath="$PROJECT_DIR$/.idea/modules/tapfontskit/TapFontsKit-Android.tapfontskit.iml" />
     </modules>
   </component>
 </project>

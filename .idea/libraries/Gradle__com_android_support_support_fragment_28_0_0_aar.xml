@@ -2,10 +2,14 @@
   <library name="Gradle: com.android.support:support-fragment:28.0.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/625c0cf6df335a74cd3a6bfa6684d19f/support-fragment-28.0.0/annotations.zip!/" />
+      <root url="jar:///usr/local/Cellar/gradle/6.7.1/caches/transforms-2/files-2.1/b01e9f4c2d2ed9292e535153126395f7/support-fragment-28.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/625c0cf6df335a74cd3a6bfa6684d19f/support-fragment-28.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/625c0cf6df335a74cd3a6bfa6684d19f/support-fragment-28.0.0/res" />
+      <root url="jar:///usr/local/Cellar/gradle/6.7.1/caches/transforms-2/files-2.1/b01e9f4c2d2ed9292e535153126395f7/support-fragment-28.0.0/jars/classes.jar!/" />
+      <root url="file:///usr/local/Cellar/gradle/6.7.1/caches/transforms-2/files-2.1/b01e9f4c2d2ed9292e535153126395f7/support-fragment-28.0.0/res" />
+      <root url="file:///usr/local/Cellar/gradle/6.7.1/caches/transforms-2/files-2.1/b01e9f4c2d2ed9292e535153126395f7/support-fragment-28.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
