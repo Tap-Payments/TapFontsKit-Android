@@ -47,9 +47,9 @@ enum class TapFont {
                 robotoMedium->"fonts/Roboto-Medium.ttf"
                 robotoBold->"fonts/Roboto-Bold.ttf"
 
-                tajawalRegular -> "fonts/Tajawal-Bold.ttf"
+                tajawalRegular -> "fonts/Tajawal-Medium.ttf"
                 tajawalThin ->"fonts/Tajawal-Thin.ttf"
-                tajawalLight->"fonts/Tajawal-Light.ttf"
+                tajawalLight->"fonts/Tajawal-Regular.ttf"
                 tajawalMedium->"fonts/Tajawal-Medium.ttf"
                 tajawalBold->"fonts/Tajawal-Bold.ttf"
 
@@ -61,6 +61,9 @@ enum class TapFont {
                 latoBold->"fonts/Lato-Bold.ttf"
                 latoLight->"fonts/Lato-Light.ttf"
                 latoRegular->"fonts/Lato-Regular.ttf"
+                latoThin->"fonts/Lato-Light.ttf"
+                latoMedium ->"fonts/Lato-Medium.ttf"
+
                else->"fonts/Roboto-Regular.ttf"
             }
         }
